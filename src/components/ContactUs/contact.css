@@ -1,0 +1,47 @@
+.px-5
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.w3-padding-16
+{
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+.w3-input {
+    padding: 8px;
+    display: block;
+    border-bottom: 1px solid grey;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    width: 100%;
+}
+.my-5
+        {
+            margin-top: 150px !important;
+            margin-bottom: 20px;
+
+        }
+        .w3-text-blue-grey
+        {
+            color: #607d8b!important;
+            font-size: 18px !important;
+            font-family:Times New Roman, Georgia, Serif;
+        }
+         .w3-light-grey
+        {
+            background-color: #f1f1f1!important;
+            color: #000!important;
+        }
+        @media (min-width: 992px)
+        {
+            .px-5
+            {
+                padding-left: 180px !important;
+                padding-right: 180px !important;
+    
+            }
+            
+
+        }

@@ -1,0 +1,35 @@
+@media (max-width: 992px)
+{
+    .w3-hide-medium
+    {
+        display: none !important;
+        
+    }
+
+}
+@media (min-width: 992px)
+{
+    .px-5
+    {
+        padding-left: 180px !important;
+        padding-right: 180px !important;
+
+    }
+    
+
+}
+.w3-padding-64
+        {
+            padding-top: 64px !important;
+            padding-bottom: 64 !important;
+        }
+        .w3-large
+        {
+            font-size: 18px !important;
+            font-family: 'Times New Roman', Georgia, serif;
+        }
+        .px-5
+        {
+            padding-left: 20px;
+            padding-right: 20px;
+        }

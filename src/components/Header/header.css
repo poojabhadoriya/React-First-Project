@@ -1,4 +1,10 @@
-.header-component-class
-{
-    color:red
-}
+.btn-list
+        {
+            /* background-color: red; */
+            border-radius: 0;
+        }
+        .btn-list:hover
+        {
+            background-color: #ccc!important;
+            border-radius: 0;
+        }
