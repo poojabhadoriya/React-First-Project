@@ -18,10 +18,7 @@ export const Contact = () =>
       
           <p className="w3-text-blue-grey"> <b>Service, 42nd Living St, 43043 New York, NY</b> </p>
       
-          <p style={{"font-family": "Times New Roman, Georgia, Serif; font-size: 15px; line-height: 1.5;"}}>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:
-      
-          </p>
-      
+          <p style={{fontFamily: "Times New Roman, Georgia, Serif", fontSize: "15px", lineHeight: "1.5"}}>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
           </div>
           
 
