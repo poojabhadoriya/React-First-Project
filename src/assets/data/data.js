@@ -2,6 +2,20 @@ export const DATA =
 {
     title:'Gourmet au Catering1',
     items1 : 'About',
+    headerNavItems: [
+      {
+        link: '/about',
+        name: 'About'
+      },
+      {
+        link: '/menu',
+        name: 'Menu'
+      },
+      {
+        link: '/contact',
+        name: 'Contact'
+      },
+    ],
     aboutheading1 : 'Hello there',
     aboutheading2 : 'Tradition since 1889',
     aboutpara : 'The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcolaboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur', 

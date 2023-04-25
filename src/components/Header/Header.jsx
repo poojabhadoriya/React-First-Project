@@ -4,7 +4,7 @@ import "./header.css";
 
 export const Header = (props) => {
 
-  console.log("Header Component", props);
+  console.log("Header Component", props.menuItems);
 
   return (
     <div className="container-fluid fixed-top ">
@@ -19,28 +19,23 @@ export const Header = (props) => {
         </a>
 
         <ul className="nav nav-pills">
-          <li className="nav-item">
+
+
+        {
+          props.menuItems.map((value) => (
+            <li className="nav-item">
             <a
-              href="#"
+              href={value.link}
               className="btn btn-list  text-dark me-2"
               aria-current="page"
               style={{ "letter-spacing ": "2px;" }}
             >
-              About
+              {value.name}
             </a>
           </li>
+          ))
+        }
 
-          <li className="nav-item">
-            <a href="#" className="btn btn-list  text-dark me-2">
-              Menu
-            </a>
-          </li>
-
-          <li className="nav-item">
-            <a href="#" className="btn btn-list  text-dark me-2">
-              Contact
-            </a>
-          </li>
         </ul>
       </header>
     </div>
