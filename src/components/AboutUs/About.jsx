@@ -1,7 +1,8 @@
 import React from "react";
-
 import "./about.css";
+import tableImage2 from "../../assets/images/tablesetting2.jpg";
 
+<<<<<<< HEAD
 import tableImage from "../.././assets/images/tablesetting2.jpg";
 
 export const About = (props) => {
@@ -25,12 +26,33 @@ export const About = (props) => {
             alt="table"
             class="img-fluid w-100% h-100 "
             style={{ "border-radius": "4px" }}
+=======
+export const About = () => {
+  console.log("About Component");
+  return (
+    <div className="container-fluid text-center py-5 d-flex px-5 mt-4  w3-padding-64 my-md-5 ">
+      <div className="row align-items-md-stretch">
+        {/* <!--  --> */}
+
+        <div className="col-md-6 col-lg-6">
+          {/* <img src="../../assets/images/tablesetting2.jpg" alt="table" class="img-fluid w-100% h-100 " style={{"border-radius": "4px;"}} /></img> */}
+
+          <img
+            src={tableImage2}
+            alt="table"
+            class="img-fluid w-100% h-100 "
+            style={{ borderRadius: "4px" }}
+>>>>>>> 09ac0098680014abdc57d57f8df2123901e27a98
           />
         </div>
 
         <div className="col-md-6 col-lg-6 ">
           <div className="aboutus">
+<<<<<<< HEAD
             <h1 className="pb-4">{props.heading1}</h1>
+=======
+            <h1 className="pb-4">About Catering</h1>
+>>>>>>> 09ac0098680014abdc57d57f8df2123901e27a98
 
             <h5 className="pb-4">Tradition since 1889</h5>
 

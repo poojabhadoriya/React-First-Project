@@ -18,10 +18,14 @@ export const Contact = (props) =>
       
           <p className="w3-text-blue-grey"> <b>{props.head2}</b> </p>
       
+<<<<<<< HEAD
           <p style={{"font-family": "Times New Roman, Georgia, Serif ", "font-size" : "15px", "line-height ": "1.5;"}}>{props.para}
       
           </p>
       
+=======
+          <p style={{fontFamily: "Times New Roman, Georgia, Serif", fontSize: "15px", lineHeight: "1.5"}}>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+>>>>>>> 09ac0098680014abdc57d57f8df2123901e27a98
           </div>
           
 
