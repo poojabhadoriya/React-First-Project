@@ -6,11 +6,6 @@ export const Header = (props) => {
 
   console.log("Header Component", props);
 
-<<<<<<< HEAD
-export const Header = (props) =>
-
-{      console.log("Header Component",props);
-=======
   return (
     <div className="container-fluid fixed-top ">
       <header className="d-flex flex-wrap justify-content-center py-2  border-bottom">
@@ -22,7 +17,6 @@ export const Header = (props) =>
 
           <span className="fs-4">{props.heading}</span>
         </a>
->>>>>>> 09ac0098680014abdc57d57f8df2123901e27a98
 
         <ul className="nav nav-pills">
           <li className="nav-item">
@@ -42,33 +36,6 @@ export const Header = (props) =>
             </a>
           </li>
 
-<<<<<<< HEAD
-      <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-
-        {/* <svg className="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> */}
-
-        <span className="fs-4">{props.heading}{props.list}</span>
-
-      </a>
-
-      <ul className="nav nav-pills">
-
-        <li className="nav-item"><a href="#" className="btn btn-list  text-dark me-2" aria-current="page" 
-
-        style={{"letter-spacing": "2px;"}}>About</a></li>
-
-        <li className="nav-item"><a href="#" className="btn btn-list  text-dark me-2">Menu</a></li>
-        
-        <li className="nav-item"><a href="#" className="btn btn-list  text-dark me-2">Contact</a></li>
-       
-      </ul>
-    </header>
-  </div>);
-    
-        
-    
-}
-=======
           <li className="nav-item">
             <a href="#" className="btn btn-list  text-dark me-2">
               Contact
@@ -79,4 +46,3 @@ export const Header = (props) =>
     </div>
   );
 };
->>>>>>> 09ac0098680014abdc57d57f8df2123901e27a98
