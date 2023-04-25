@@ -14,6 +14,5 @@ export const DATA =
     contacthead2 : 'Service, 42nd Living St, 43043 New York, NYyyyyyy',
     contactpara : 'You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:',
     footerhead : 'Powered by w3.css'
-
 } 
 
