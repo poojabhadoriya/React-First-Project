@@ -13,6 +13,19 @@
            
 
         }
+
+        @media (max-width: 768px)
+{
+    #res 
+     {
+        background-position: center !important;
+        text-align: center;
+
+    }
+    
+
+}
+
         .fixed-top
         {
             background-color: white;
