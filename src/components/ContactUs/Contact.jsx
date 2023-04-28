@@ -11,24 +11,20 @@ export const Contact = (props) => {
 
   const[dateValue, setDateValue] = React.useState('');
 
-    console.log("Contact component", props);
 
 
     const handlerName = (evt) => {
-      console.log('key up name -- ', evt.target.value);
       setNameValue(evt.target.value);
     }
 
     const handlerName2 = (evt) =>
     {
-      console.log('Key up name--', evt.target.value);
       setPeopleValue(evt.target.value);
 
     }
 
     const handlerName3 = (evt) =>
     {
-      console.log("onchange evnt name --", evt.target.value);
       setDateValue(evt.target.value);
 
     }

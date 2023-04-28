@@ -3,7 +3,6 @@ import "./about.css";
 import tableImage2 from "../../assets/images/tablesetting2.jpg";
 
 export const About = (props) => {
-  console.log("About Component");
   return (
     <div className="container-fluid text-center py-5 d-flex px-5 mt-4  w3-padding-64 my-md-5 ">
       <div className="row align-items-md-stretch">

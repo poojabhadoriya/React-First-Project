@@ -5,7 +5,6 @@ import "./footer.css";
 
 export const Footer = (props) =>
 {
-    console.log("Footer Component",props);
 
     return (<div className="container-fluid bg-footer d-flex justify-content-center align-items-center ">
 

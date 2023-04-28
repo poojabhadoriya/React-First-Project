@@ -5,7 +5,6 @@ import "./hero.css";
 
 export const Hero = (props) =>
 {
-    console.log("Hero Compenent", props);
     return (<div>
 
         <div className="container-fluid banner" id="res">

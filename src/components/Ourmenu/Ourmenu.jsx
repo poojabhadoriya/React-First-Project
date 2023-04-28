@@ -6,7 +6,6 @@ import tableImage2 from "../.././assets/images/tablesetting1.jpg";
 
 export const OurMenu = (props) => {
 
-  console.log("OurMenu Componenets", props.menuhead);
   return (
 
     <div className="d-flex flex-lg-row mb-3 justify-content-center text-center align-items-center flex-md-column flex-sm-column px-3">

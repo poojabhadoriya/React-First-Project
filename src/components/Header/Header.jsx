@@ -4,7 +4,6 @@ import "./header.css";
 
 export const Header = (props) => {
 
-  console.log("Header Component", props.menuItems);
 
   return (
     <div className="container-fluid fixed-top ">
