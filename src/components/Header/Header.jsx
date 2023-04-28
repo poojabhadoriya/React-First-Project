@@ -23,7 +23,9 @@ export const Header = (props) => {
 
         {
           props.menuItems.map((value) => (
+
             <li className="nav-item">
+
             <a
               href={value.link}
               className="btn btn-list  text-dark me-2"
@@ -32,7 +34,9 @@ export const Header = (props) => {
             >
               {value.name}
             </a>
+            
           </li>
+          
           ))
         }
 

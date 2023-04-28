@@ -7,12 +7,30 @@ export const Contact = (props) => {
 
   const [nameValue, setNameValue] = React.useState('');
 
+  const [peopleValue, setPeopleValue] = React.useState('');
+
+  const[dateValue, setDateValue] = React.useState('');
+
     console.log("Contact component", props);
 
 
     const handlerName = (evt) => {
       console.log('key up name -- ', evt.target.value);
       setNameValue(evt.target.value);
+    }
+
+    const handlerName2 = (evt) =>
+    {
+      console.log('Key up name--', evt.target.value);
+      setPeopleValue(evt.target.value);
+
+    }
+
+    const handlerName3 = (evt) =>
+    {
+      console.log("onchange evnt name --", evt.target.value);
+      setDateValue(evt.target.value);
+
     }
 
     return (
@@ -37,10 +55,12 @@ export const Contact = (props) => {
           <h4>Name - {nameValue} </h4>
       
           <p><input onKeyUp={handlerName} className="w3-input w3-padding-16" type="text" placeholder="Name" required="" name="Name"></input></p>
+
+          <h4>People - {peopleValue} </h4>
         
-          <p><input className="w3-input w3-padding-16" type="number" placeholder="How many people" required="" name="People"></input></p>
+          <p><input onKeyUp={handlerName2} className="w3-input w3-padding-16" type="number" placeholder="How many people" required="" name="People"></input></p>
         
-          <p><input className="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required="" name="date" value="2020-11-16T20:00"></input></p>
+          <p><input onChange={handlerName3} className="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required="" name="date" value="2020-11-16T20:00"></input></p>
         
           <p><input className="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required="" name="Message"></input></p>
         
